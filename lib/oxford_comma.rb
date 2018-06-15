@@ -1,6 +1,8 @@
 def oxford_comma(array)
+  if array.legnth = 1
+    return array.join(' ')
+  elsif
+    array.length = 2
 final = array[array.length - 1]
-new_array = array.slice(array[final])
-joined = new_array.join(',')
-return joined + "and" + final
+return array.join(' and ')
 end
